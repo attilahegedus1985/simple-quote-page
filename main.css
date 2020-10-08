@@ -8,26 +8,43 @@ body {
   text-align: center;
   background: url(assets/freedom.jpg) no-repeat center;
   background-size: cover;
-  display:block;
 }
 h1 {
   padding-top:4rem;
   font-family:san-serif;  
   text-transform:uppercase;
-  letter-spacing:0.0125rem;
+  letter-spacing:0.05rem;
   margin-top:25px;
-  font-size:3rem;
+  font-size:1rem;
   padding-bottom:1.5rem;
   font-weight: 100;
-  line-height:5rem;
+  line-height:2rem;
   margin:0 auto;
-  width:90%;
-  
+  width:90%;  
 }
 
 h2 {
   font-family:san-serif;  
-  font-size:1.5rem;
+  font-size:0.5rem;
   font-style:italic;
     
+}
+
+@media (min-width:768px) {
+  
+  h1{
+    font-size:3rem;
+    line-height:5rem;
+  }
+}
+@media (min-width:768px) {
+  h2{
+    font-size:2rem;
+  }
+}
+
+@media (min-height:768x) {
+  h1 {
+    padding-top:30vh;
+  }
 }
