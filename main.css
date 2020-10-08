@@ -1,0 +1,33 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  width: 100%;
+  height: 100wh;
+  text-align: center;
+  background: url(assets/freedom.jpg) no-repeat center;
+  background-size: cover;
+  display:block;
+}
+h1 {
+  padding-top:4rem;
+  font-family:san-serif;  
+  text-transform:uppercase;
+  letter-spacing:0.0125rem;
+  margin-top:25px;
+  font-size:3rem;
+  padding-bottom:1.5rem;
+  font-weight: 100;
+  line-height:5rem;
+  margin:0 auto;
+  width:90%;
+  
+}
+
+h2 {
+  font-family:san-serif;  
+  font-size:1.5rem;
+  font-style:italic;
+    
+}
