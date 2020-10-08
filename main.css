@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 h1 {
-  padding-top:4rem;
+  padding-top:3rem;
   font-family:san-serif;  
   text-transform:uppercase;
   letter-spacing:0.05rem;
@@ -43,8 +43,8 @@ h2 {
   }
 }
 
-@media (min-height:768x) {
+@media (min-height:768px) {
   h1 {
-    padding-top:30vh;
+    padding-top:10rem;
   }
 }
